@@ -11,3 +11,5 @@
 
 ## 多重继承
 - 初始化方法
+  - super(BOWInvertedIndexEngineWi..., self).__init__()：直接初始化继承的第一个父类，但要求最顶层的父类必须继承object
+  - LRUCache.__init__(self)：传统方法
